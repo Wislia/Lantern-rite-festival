@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: ccb74cdfc84b24e42b79960366bb74a8
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - OptimaModoki
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 842549465db4a6b4ab6a5e5e754ff028, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,544 @@
+fileFormatVersion: 2
+guid: f8b8e7871b43300468a8b20cd43897a1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2817255661187409041
+    second: nunus_0
+  - first:
+      213: 7604791719039620701
+    second: nunus_1
+  - first:
+      213: -1781734299343011309
+    second: nunus_2
+  - first:
+      213: -5872166491354890010
+    second: nunus_3
+  - first:
+      213: 456839495666930645
+    second: nunus_4
+  - first:
+      213: -7914799254292634796
+    second: nunus_5
+  - first:
+      213: -8410299044167492068
+    second: nunus_6
+  - first:
+      213: -916076472522712245
+    second: nunus_7
+  - first:
+      213: -3029661155860364417
+    second: nunus_8
+  - first:
+      213: 6717837797909949183
+    second: nunus_9
+  - first:
+      213: 1955877918823740720
+    second: nunus_10
+  - first:
+      213: -3024797033433136622
+    second: nunus_11
+  - first:
+      213: -4059150182376528166
+    second: nunus_12
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: 0
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: nunus_0
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 602
+        width: 502
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 194a88ee817e81720800000000000000
+      internalID: 2817255661187409041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nunus_1
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 544
+        width: 303
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d56503cc6c5a98960800000000000000
+      internalID: 7604791719039620701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nunus_2
+      rect:
+        serializedVersion: 2
+        x: 1402
+        y: 481
+        width: 502
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 312c78348120647e0800000000000000
+      internalID: -1781734299343011309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nunus_3
+      rect:
+        serializedVersion: 2
+        x: 2271
+        y: 623
+        width: 260
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e007dc20bfd18ea0800000000000000
+      internalID: -5872166491354890010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nunus_4
+      rect:
+        serializedVersion: 2
+        x: 2717
+        y: 454
+        width: 704
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d39892d915075600800000000000000
+      internalID: 456839495666930645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nunus_5
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 342
+        width: 495
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4536c5b330cf82290800000000000000
+      internalID: -7914799254292634796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nunus_6
+      rect:
+        serializedVersion: 2
+        x: 1864
+        y: 384
+        width: 189
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1ed699349d984b80800000000000000
+      internalID: -8410299044167492068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nunus_7
+      rect:
+        serializedVersion: 2
+        x: 2461
+        y: 272
+        width: 311
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4bd0344d417943f0800000000000000
+      internalID: -916076472522712245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nunus_8
+      rect:
+        serializedVersion: 2
+        x: 2781
+        y: 351
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f73c4270b3b74f5d0800000000000000
+      internalID: -3029661155860364417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nunus_9
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 238
+        width: 190
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffa6d1372ed8a3d50800000000000000
+      internalID: 6717837797909949183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nunus_10
+      rect:
+        serializedVersion: 2
+        x: 1209
+        y: 243
+        width: 268
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 035f48fba9ca42b10800000000000000
+      internalID: 1955877918823740720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nunus_11
+      rect:
+        serializedVersion: 2
+        x: 3107
+        y: 89
+        width: 381
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2120098cf13c506d0800000000000000
+      internalID: -3024797033433136622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nunus_12
+      rect:
+        serializedVersion: 2
+        x: 2053
+        y: 101
+        width: 288
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad62c795a600ba7c0800000000000000
+      internalID: -4059150182376528166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline:
+    - - {x: 1627.6818, y: -188.03676}
+      - {x: 1531.1095, y: -188.03676}
+      - {x: 1323.918, y: -321.59558}
+      - {x: 1329.1855, y: -328.625}
+      - {x: 1318.6504, y: -321.59558}
+      - {x: 1306.3594, y: -319.83823}
+      - {x: 1306.3594, y: -342.6838}
+      - {x: 1334.4531, y: -391.88968}
+      - {x: 1629.4376, y: -391.88968}
+      - {x: 1687.381, y: -388.375}
+      - {x: 1692.6486, y: -374.31616}
+      - {x: 1692.6486, y: -298.75}
+    - - {x: 319.5664, y: -251.30147}
+      - {x: 252.84377, y: -312.8088}
+      - {x: 252.84377, y: -347.95587}
+      - {x: 254.59962, y: -349.71323}
+      - {x: 354.68362, y: -379.58823}
+      - {x: 444.23245, y: -379.58823}
+      - {x: 546.07227, y: -356.74265}
+      - {x: 546.07227, y: -312.8088}
+      - {x: 438.96487, y: -251.30147}
+    - - {x: -1624.17, y: -135.31618}
+      - {x: -1627.6818, y: -142.34558}
+      - {x: -1627.6818, y: -230.21323}
+      - {x: -1596.0763, y: -242.5147}
+      - {x: -1441.5607, y: -242.5147}
+      - {x: -1432.7814, y: -231.97058}
+      - {x: -1432.7814, y: -186.2794}
+      - {x: -1499.504, y: -135.31618}
+    - - {x: -326.58984, y: -189.79411}
+      - {x: -405.60355, y: -165.19118}
+      - {x: -451.2559, y: -165.19118}
+      - {x: -589.96875, y: -217.91176}
+      - {x: -591.7246, y: -219.66911}
+      - {x: -591.7246, y: -237.24265}
+      - {x: -444.23245, y: -237.24265}
+      - {x: -317.81055, y: -209.125}
+      - {x: -317.81055, y: -193.30882}
+      - {x: -319.5664, y: -191.55147}
+    - - {x: 725.17, y: -65.02206}
+      - {x: 660.2031, y: -115.98529}
+      - {x: 660.2031, y: -209.125}
+      - {x: 886.70905, y: -209.125}
+      - {x: 976.2579, y: -181.00734}
+      - {x: 976.2579, y: -112.47058}
+      - {x: 867.3946, y: -65.02206}
+    - - {x: -1332.6973, y: 35.147057}
+      - {x: -1436.2931, y: 0}
+      - {x: -1436.2931, y: -68.536766}
+      - {x: -1306.3594, y: -138.83087}
+      - {x: -1021.9102, y: -138.83087}
+      - {x: -935.8731, y: -123.0147}
+      - {x: -935.8731, y: -38.661762}
+      - {x: -1058.7832, y: 35.147057}
+    - - {x: 145.73633, y: 5.2720585}
+      - {x: 63.21094, y: -42.176468}
+      - {x: 63.21094, y: -65.02206}
+      - {x: 100.08399, y: -96.65441}
+      - {x: 201.92384, y: -96.65441}
+      - {x: 249.33205, y: -91.38235}
+      - {x: 258.11133, y: -65.02206}
+      - {x: 258.11133, y: -7.0294113}
+      - {x: 254.59962, y: 5.2720585}
+    - - {x: 1334.4531, y: 363.77203}
+      - {x: 1099.168, y: 363.77203}
+      - {x: 1046.4922, y: 312.8088}
+      - {x: 916.55865, y: 79.08088}
+      - {x: 916.55865, y: -26.360292}
+      - {x: 1086.877, y: -26.360292}
+      - {x: 1492.4806, y: 15.816176}
+      - {x: 1546.9122, y: 43.933823}
+      - {x: 1625.9259, y: 179.25}
+      - {x: 1625.9259, y: 216.1544}
+    - - {x: -49.164066, y: 381.34558}
+      - {x: -147.49219, y: 381.34558}
+      - {x: -321.32227, y: 161.67647}
+      - {x: -398.5801, y: 57.992645}
+      - {x: -398.5801, y: 10.544117}
+      - {x: -354.68362, y: 0}
+      - {x: -205.43556, y: 0}
+      - {x: 89.548836, y: 158.16176}
+      - {x: 108.86329, y: 191.55147}
+      - {x: 108.86329, y: 261.84558}
+    - - {x: -461.79105, y: 224.94116}
+      - {x: -672.49414, y: 224.94116}
+      - {x: -683.0293, y: 223.18382}
+      - {x: -704.0997, y: 170.46323}
+      - {x: -704.0997, y: 68.536766}
+      - {x: -690.0528, y: 63.264706}
+      - {x: -549.584, y: 63.264706}
+      - {x: -421.40628, y: 128.28676}
+      - {x: -395.0684, y: 181.00734}
+      - {x: -395.0684, y: 200.33823}
+    - - {x: -1552.1798, y: 420.00732}
+      - {x: -1752.3478, y: 251.30147}
+      - {x: -1752.3478, y: 200.33823}
+      - {x: -1743.5685, y: 175.73529}
+      - {x: -1487.213, y: 121.25735}
+      - {x: -1290.5566, y: 121.25735}
+      - {x: -1244.9043, y: 165.19118}
+      - {x: -1244.9043, y: 219.66911}
+      - {x: -1445.0724, y: 420.00732}
+    - - {x: 593.48047, y: 203.85294}
+      - {x: 537.29297, y: 203.85294}
+      - {x: 470.57034, y: 166.94852}
+      - {x: 470.57034, y: 151.13235}
+      - {x: 488.12894, y: 144.10294}
+      - {x: 619.81836, y: 142.34558}
+      - {x: 733.9493, y: 142.34558}
+      - {x: 735.70514, y: 145.86029}
+      - {x: 735.70514, y: 161.67647}
+      - {x: 658.44727, y: 188.03676}
+    - - {x: -1250.1719, y: 203.85294}
+      - {x: -1244.9043, y: 205.61029}
+      - {x: -1244.9043, y: 210.88234}
+      - {x: -1250.1719, y: 212.6397}
+      - {x: -1253.6836, y: 209.125}
+    - - {x: -363.46292, y: 230.21323}
+      - {x: -373.99808, y: 219.66911}
+      - {x: -372.24222, y: 214.39705}
+      - {x: -365.21878, y: 214.39705}
+      - {x: -356.43948, y: 223.18382}
+      - {x: -356.43948, y: 226.69852}
+      - {x: -359.9512, y: 230.21323}
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
