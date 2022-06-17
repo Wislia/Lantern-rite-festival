@@ -37709,7 +37709,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6123326811059387944, guid: 8a9d88d28bfdd3f48a21506e54f2cfb6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.06
+      value: -5.67
       objectReference: {fileID: 0}
     - target: {fileID: 6123326811059387944, guid: 8a9d88d28bfdd3f48a21506e54f2cfb6, type: 3}
       propertyPath: m_LocalPosition.y
@@ -40048,6 +40048,7 @@ MonoBehaviour:
   _particule0: {fileID: 1470236797}
   _particule1: {fileID: 259118491}
   _particule2: {fileID: 590800425}
+  _isFighting: 1
 --- !u!95 &1670885466
 Animator:
   serializedVersion: 3

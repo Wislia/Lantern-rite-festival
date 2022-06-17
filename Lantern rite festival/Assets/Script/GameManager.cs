@@ -82,11 +82,26 @@ public class GameManager : MonoBehaviour
 
     internal void IncreaseCharacterPosition()
     {
-        _personnage.deplacement++;
-        if (_personnage.deplacement == 3)
+        
+        
+
+        
+       
+            if(_personnage.deplacement == 0)
         {
-            _personnage.deplacement = 0;
+            _personnage.deplacement = 1;
         }
+
+            _personnage.deplacement++;
+       
+
+       
+
+        if (_personnage.deplacement == 4)
+        {
+            _personnage.deplacement = 1;
+        }
+       
     }
 
     // Start is called before the first frame update
@@ -238,7 +253,7 @@ public class GameManager : MonoBehaviour
         multiText.text = "Multiplier: x" + currentMultiplier;
 
         _missedHits++;
-
+        //StartCoroutine(HitPlayer());
         _personnage.deplacement = 0;
 
         _staticMissedHits = _missedHits;
@@ -249,12 +264,19 @@ public class GameManager : MonoBehaviour
         _normalHits = _normal;
     }
 
-    IEnumerator Coroutine()
+    IEnumerator End() 
     {
         yield return new WaitForSeconds(3f);
         _fade.Play("FadeIn");
         yield return new WaitForSeconds(1.15f);
         SceneManager.LoadScene(3);
+    }
+
+    public IEnumerator HitPlayer()
+    {
+        _personnage._isFighting = false;
+        yield return new WaitForSeconds(0.5f);
+        _personnage._isFighting = true;
     }
 
     public bool GetEasyMode()

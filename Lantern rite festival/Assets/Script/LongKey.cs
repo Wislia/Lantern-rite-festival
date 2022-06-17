@@ -42,7 +42,7 @@ public class LongKey : MonoBehaviour
     void Update()
     {
         if (_arrowType == ArrowType.Up)
-            Debug.Log("ksbfhjfhgbqehr");
+
         if(_pressed == true)
         {
             Debug.Log("vaniquertagrossedaronnelachiennasse");
