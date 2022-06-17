@@ -22,7 +22,7 @@ public class GameOverTotem : MonoBehaviour
 
     public void Retry()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(4);
     }
     public void QuitGame()
     {

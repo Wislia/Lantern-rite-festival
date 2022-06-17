@@ -30,32 +30,8 @@ public class NoteObject : MonoBehaviour
                 GameManager.instance.IncreaseCharacterPosition();
                 //GameManager.instance._totalNotes --;
                 Destroy(this.gameObject);
-                //gameObject.SetActive(false);
-
-                //GameManager.instance.NoteHit();
-
-                /*if(Mathf.Abs(transform.position.y) > -4.2)
-                {
-                    Debug.Log("Hit");
-                    GameManager.instance.NormalHit();
-                    Instantiate(hit, transform.position, hit.transform.rotation);
-                }
-                else if(Mathf.Abs(transform.position.y) > -5.6f)
-                {
-                    Debug.Log("Good");
-                    GameManager.instance.GoodHit();
-                    Instantiate(good, transform.position, good.transform.rotation);
-                }
-                else
-                {
-                    Debug.Log("Perfect");
-                    GameManager.instance.PerfectHit();
-                    Instantiate(perfect, transform.position, perfect.transform.rotation);
-                }*/
 
                 float distance = Mathf.Abs(transform.position.y - perfectPosition);
-
-                //Debug.Log(distance);
 
                 if (distance < 0.08f)
                 {
@@ -77,8 +53,6 @@ public class NoteObject : MonoBehaviour
                 }
             }
         }
-
-        
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -99,6 +73,7 @@ public class NoteObject : MonoBehaviour
 
         }
     }
+ 
 
     /*private void OnTriggerExit2D(Collider2D other)
     {

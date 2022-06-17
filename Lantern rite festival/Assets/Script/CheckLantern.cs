@@ -20,9 +20,9 @@ public class CheckLantern : MonoBehaviour
         if (LanternTaken == true)
         {
             _fiou.Play();
-
             AllLanterns.NumberOfLanterns++;
             spriteR.sprite = sprite;
+            
             //hingeJoint2D.enabled = true;
             particule.Play();
             LanternTaken = false;

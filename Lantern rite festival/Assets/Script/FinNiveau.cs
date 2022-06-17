@@ -10,6 +10,8 @@ public class FinNiveau : MonoBehaviour
 
     public Animator _fade;
 
+    public Animator _idle, _boss;
+
     [SerializeField] private float _speed;
 
     // Start is called before the first frame update
@@ -37,13 +39,17 @@ public class FinNiveau : MonoBehaviour
         _vcamFin.SetActive(true);
         _character.enabled = false;
         StartCoroutine(Coroutine());
+
+        _idle.Play("idle");
+        _boss.Play("CaramboleBoss1");
+        
     }
 
     IEnumerator Coroutine()
     {
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(3f);
         _fade.Play("FadeIn");
         yield return new WaitForSeconds(1.15f);
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(3);
     }
 }

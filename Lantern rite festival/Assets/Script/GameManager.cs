@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 
@@ -34,6 +35,8 @@ public class GameManager : MonoBehaviour
     public float _missedHits;
     public float _totalHits;
     public float _percentHits;
+    public float _percentPerfects;
+    public float _totalPerfect;
 
     public static float _staticnormalHits;
     public static float _staticGoodHits;
@@ -41,6 +44,7 @@ public class GameManager : MonoBehaviour
     public static float _staticMissedHits;
     public static float _staticTotalScore;
     public static float _staticComboMax;
+    public static float _staticPercentPerfect;
 
     public TextMeshProUGUI _combosText, _normalsText, _goodsText, _perfectText, _missedText, _rankText, _finalScoreText = null;
 
@@ -50,6 +54,10 @@ public class GameManager : MonoBehaviour
 
     public CharacterFight _personnage =null;
     private static GameManager _instance;
+
+    public Animator _fade, _bossHit;
+
+    public static bool _easy;
 
     private int _combo;
     public static GameManager instance
@@ -84,6 +92,7 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        
         _instance = this;
 
         //scoreText.text = "Score: 0";
@@ -97,39 +106,28 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        /* if (!startPlaying)
-         {
-             if (Input.anyKeyDown)
-             {
-                 startPlaying = true;
-                 theBS.hasStarted = true;
-                 theMusic.Play();
-             }
-         }*/
 
-        
-
-        //Debug.Log("pourcentage " + _staticPercentHit);
-        //Debug.Log("Total " + _staticTotalNotes); 
-
-        if (_staticPercentHit > 40)
+        if (_staticPercentPerfect == 100)
         {
-            _rankText.text = "D";
-            if (_staticPercentHit > 55)
+            _rankText.text = "SS";
+        }
+        else
+        { 
+            if (_staticPercentHit > 20)
             {
-                _rankText.text = "C";
-                if (_staticPercentHit > 70)
+                _rankText.text = "D";
+                if (_staticPercentHit > 50)
                 {
-                    _rankText.text = "B";
-                    if (_staticPercentHit > 85)
+                    _rankText.text = "C";
+                    if (_staticPercentHit > 70)
                     {
-                        _rankText.text = "A";
-                        if (_staticPercentHit > 95)
+                        _rankText.text = "B";
+                        if (_staticPercentHit > 90)
                         {
-                            _rankText.text = "S";
-                            if (_staticPercentHit > 100)
+                            _rankText.text = "A";
+                            if (_staticPercentHit == 100)
                             {
-                                _rankText.text = "SS";
+                                _rankText.text = "S";
                             }
                         }
                     }
@@ -148,6 +146,11 @@ public class GameManager : MonoBehaviour
         _perfectText.text = _staticPerfectHits.ToString();
         _missedText.text = _staticMissedHits.ToString();
         _combosText.text = _staticComboMax.ToString();
+    }
+
+    public void EasyMode()
+    {
+        _easy = !_easy;
     }
 
     public void NoteHit()
@@ -174,7 +177,7 @@ public class GameManager : MonoBehaviour
 
 
 
-        _totalHits = _normalHits + _goodHits + _perfectHits;
+        _totalHits = _normalHits + _goodHits + _perfectHits +1;
         _staticTotalHits = _totalHits;
 
         _percentHits = (_totalHits / _totalNotes) * 100f;
@@ -184,8 +187,6 @@ public class GameManager : MonoBehaviour
         /*Debug.Log("pourcentage " + _staticPercentHit);
         Debug.Log("Total " + _totalNotes);
         Debug.Log("Hits " + _totalHits);*/
-
-
     }
 
     public void NormalHit()
@@ -221,12 +222,16 @@ public class GameManager : MonoBehaviour
         _perfectHits++;
 
         _staticPerfectHits = _perfectHits;
+
+        _percentPerfects = (_totalNotes / _perfectHits) * 100f;
+        _staticPercentPerfect = _perfectHits;
     }
 
     public void NoteMissed()
     {
         //Debug.Log("Missed Note");
 
+        _bossHit.Play("Hit");
         currentMultiplier = 1;
         multiplierTracker = 0;
 
@@ -242,5 +247,18 @@ public class GameManager : MonoBehaviour
     public void Setter(float _normal)
     {
         _normalHits = _normal;
+    }
+
+    IEnumerator Coroutine()
+    {
+        yield return new WaitForSeconds(3f);
+        _fade.Play("FadeIn");
+        yield return new WaitForSeconds(1.15f);
+        SceneManager.LoadScene(3);
+    }
+
+    public bool GetEasyMode()
+    {
+        return _easy;
     }
 }
