@@ -57,6 +57,8 @@ public class GameManager : MonoBehaviour
 
     public Animator _fade, _bossHit;
 
+    public GameObject _bossParticule;
+
     public static bool _easy;
 
     private int _combo;
@@ -277,6 +279,13 @@ public class GameManager : MonoBehaviour
         _personnage._isFighting = false;
         yield return new WaitForSeconds(0.5f);
         _personnage._isFighting = true;
+    }
+
+    public IEnumerator BossHit()
+    {
+        _bossHit.gameObject.SetActive(true);
+        yield return new WaitForSeconds(0.5f);
+        _bossHit.gameObject.SetActive(false);
     }
 
     public bool GetEasyMode()

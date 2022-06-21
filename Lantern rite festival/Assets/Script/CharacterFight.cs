@@ -11,7 +11,7 @@ public class CharacterFight : MonoBehaviour
     public int deplacement;
     public Animator _attaques;
 
-    public GameObject _particule0, _particule1, _particule2 ;
+    public GameObject _particule0, _particule1, _particule2;
 
     public bool _isFighting = false;
     // Start is called before the first frame update
@@ -23,13 +23,11 @@ public class CharacterFight : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(deplacement);
         if (deplacement == 2)
         {
             transform.position = Vector2.MoveTowards(transform.position, position1, speed * Time.deltaTime);
             _attaques.Play("Position2");
 
-          
             _particule1.gameObject.SetActive(true);
             _particule2.gameObject.SetActive(false);
             _particule0.gameObject.SetActive(false);
@@ -42,7 +40,6 @@ public class CharacterFight : MonoBehaviour
             transform.position = Vector2.MoveTowards(transform.position, position2, speed * Time.deltaTime);
             _attaques.Play("Position3");
 
-          
             _particule2.gameObject.SetActive(true);
             _particule1.gameObject.SetActive(false);
             _particule0.gameObject.SetActive(false);
@@ -55,8 +52,6 @@ public class CharacterFight : MonoBehaviour
             transform.position = Vector2.MoveTowards(transform.position, position0, speed * Time.deltaTime);
             _attaques.Play("Position1");
 
-         
-            
             _particule0.gameObject.SetActive(true);
             _particule1.gameObject.SetActive(false);
             _particule2.gameObject.SetActive(false);
@@ -67,6 +62,7 @@ public class CharacterFight : MonoBehaviour
         {
             transform.position = Vector2.MoveTowards(transform.position, position0, speed * Time.deltaTime);
             _attaques.Play("Position1");
+           
             _particule0.gameObject.SetActive(false);
             _particule1.gameObject.SetActive(false);
             _particule2.gameObject.SetActive(false);

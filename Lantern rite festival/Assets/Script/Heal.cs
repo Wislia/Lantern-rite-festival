@@ -6,6 +6,8 @@ public class Heal : MonoBehaviour
 {
     public bool canBePressed;
     public KeyCode keyToPress;
+    public GameObject _particule;
+    public AudioSource _ranad;
 
     // Start is called before the first frame update
     void Start()
@@ -21,6 +23,8 @@ public class Heal : MonoBehaviour
             if (canBePressed)
             {
                 GameManager.instance.Heal();
+                Instantiate(_particule, transform.position, _particule.transform.rotation);
+                _ranad.Play();
 
                 Destroy(this.gameObject);
             }

@@ -10,6 +10,12 @@ public class PauseMenu : MonoBehaviour
     public LivesCounter _lifeCounter;
     public AudioSource _osu;
 
+
+    public void Start()
+    {
+        Cursor.visible = false;
+    }
+
     // Update is called once per frame
     void Update()
     {
@@ -17,7 +23,7 @@ public class PauseMenu : MonoBehaviour
         {
              if (Input.GetKeyDown(KeyCode.Escape))
             {
-                if(GameIsPaused)
+                if (GameIsPaused)
                 {
                     Resume();
                 }
@@ -43,6 +49,7 @@ public class PauseMenu : MonoBehaviour
         Time.timeScale = 0f;
         GameIsPaused = true;
         _osu.Pause();
+        Cursor.visible = true;
     }
 
     public void QuitGame()

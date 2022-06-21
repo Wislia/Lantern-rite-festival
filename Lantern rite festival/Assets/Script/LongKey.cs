@@ -41,18 +41,16 @@ public class LongKey : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (_arrowType == ArrowType.Up)
+        
 
         if(_pressed == true)
         {
-            Debug.Log("vaniquertagrossedaronnelachiennasse");
 
             _timer -= Time.deltaTime;
 
             if (_arrowType == ArrowType.Up)
             {
                 _particuleUp.gameObject.SetActive(true);
-                Debug.Log("yee");
             }
             if (_arrowType == ArrowType.Left)
             {
