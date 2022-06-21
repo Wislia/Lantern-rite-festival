@@ -21,6 +21,7 @@ public class LongKey : MonoBehaviour
     public float _timerDuration;
 
     public GameObject _particuleLeft, _particuleUp, _particuleDown, _particuleRight;
+    
 
     public enum ArrowType
     {
@@ -72,18 +73,19 @@ public class LongKey : MonoBehaviour
                 if (_longKeyEnter._perfect == true)
                 {
                     GameManager.instance.PerfectHit();
-                    Debug.Log("perfect");
+                    
                 }
                 if (_longKeyEnter._good == true)
                 {
                     GameManager.instance.GoodHit();
-                    Debug.Log("good");
+                    
                 }
                 if (_longKeyEnter._hit == true)
                 {
                     GameManager.instance.NormalHit();
-                    Debug.Log("hit");
+                    
                 }
+                
                 _timer = _timerDuration;
             }
 
@@ -95,7 +97,9 @@ public class LongKey : MonoBehaviour
                 _particuleUp.gameObject.SetActive(false);
                 _particuleLeft.gameObject.SetActive(false);
                 _particuleRight.gameObject.SetActive(false);
-            }
+                _pressed = false;
+                canBePressed = false;
+        }
 
         if (Input.GetKey(keyToPress))
         {

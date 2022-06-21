@@ -11,9 +11,9 @@ public class PauseMenu : MonoBehaviour
     public AudioSource _osu;
 
 
-    public void Start()
+    public void Awake()
     {
-        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
     }
 
     // Update is called once per frame
@@ -41,6 +41,7 @@ public class PauseMenu : MonoBehaviour
         Time.timeScale = 1f;
         GameIsPaused = false;
         _osu.UnPause();
+        Cursor.lockState = CursorLockMode.Locked;
     }
 
     void Pause()
@@ -49,7 +50,7 @@ public class PauseMenu : MonoBehaviour
         Time.timeScale = 0f;
         GameIsPaused = true;
         _osu.Pause();
-        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.None;
     }
 
     public void QuitGame()

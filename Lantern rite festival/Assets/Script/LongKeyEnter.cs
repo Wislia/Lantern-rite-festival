@@ -81,6 +81,7 @@ public class LongKeyEnter : MonoBehaviour
         {
             canBePressed = false;
             _longKey._stopPress = true;
+            _longKey._stopPress = true;
 
             GameManager.instance.NoteMissed();
             Instantiate(miss, transform.position, miss.transform.rotation);

@@ -13,8 +13,8 @@ public class EasyMode : MonoBehaviour
 
         if (GameManager.instance.GetEasyMode() == false)
         {
-            _vie.gameObject.SetActive(true);
-            _heal.gameObject.SetActive(true);
+            _vie.gameObject.SetActive(false);
+            _heal.gameObject.SetActive(false);
         }
         else
         {

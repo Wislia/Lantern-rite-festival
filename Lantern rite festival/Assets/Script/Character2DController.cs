@@ -22,6 +22,7 @@ public class Character2DController : MonoBehaviour
     private void Start()
     {
         _rigidbody2D = GetComponent<Rigidbody2D>();
+        Cursor.lockState = CursorLockMode.None;
     }
 
     private void FixedUpdate()

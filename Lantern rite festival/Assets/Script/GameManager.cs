@@ -57,7 +57,8 @@ public class GameManager : MonoBehaviour
 
     public Animator _fade, _bossHit;
 
-    public GameObject _bossParticule;
+    public ParticleSystem _bossParticule;
+
 
     public static bool _easy;
 
@@ -249,6 +250,7 @@ public class GameManager : MonoBehaviour
         //Debug.Log("Missed Note");
 
         _bossHit.Play("Hit");
+        _bossParticule.Play();
         currentMultiplier = 1;
         multiplierTracker = 0;
 

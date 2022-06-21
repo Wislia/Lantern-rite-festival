@@ -10376,6 +10376,7 @@ MonoBehaviour:
   _personnage: {fileID: 1670885465}
   _fade: {fileID: 0}
   _bossHit: {fileID: 1250394542}
+  _bossParticule: {fileID: 2457006996131319988}
 --- !u!4 &297663323
 Transform:
   m_ObjectHideFlags: 0
@@ -40026,7 +40027,6 @@ MonoBehaviour:
   _particule0: {fileID: 1470236797}
   _particule1: {fileID: 259118491}
   _particule2: {fileID: 590800425}
-  _bossHit: {fileID: 2457006996131319986}
   _isFighting: 1
 --- !u!95 &1670885466
 Animator:
@@ -47888,7 +47888,7 @@ ParticleSystem:
   ringBufferLoopRange: {x: 0, y: 1}
   looping: 0
   prewarm: 0
-  playOnAwake: 1
+  playOnAwake: 0
   useUnscaledTime: 0
   autoRandomSeed: 1
   useRigidbodyForVelocity: 1
@@ -52713,7 +52713,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2457006996131319986}
   m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -1.02, y: -3.4, z: 16.2}
+  m_LocalPosition: {x: -1.61, y: -3.44, z: 16.2}
   m_LocalScale: {x: 5.688164, y: 5.688164, z: 5.688164}
   m_Children: []
   m_Father: {fileID: 0}

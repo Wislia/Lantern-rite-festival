@@ -13,6 +13,7 @@ public class ScoreLanterns : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Cursor.lockState = CursorLockMode.None;
         for (int i = 0; i < _lantern.Length; i++)
         {
             if (AllLanterns.NumberOfLanterns == 8)

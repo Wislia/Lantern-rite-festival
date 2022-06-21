@@ -123,12 +123,12 @@ public class LivesCounter : MonoBehaviour
         if (_gameOver == true)
         {
             gameOver.gameObject.SetActive(true);
-            Cursor.visible = true;
+            Cursor.lockState = CursorLockMode.None;
         }
         else
         {
             gameOver.gameObject.SetActive(false);
-            Cursor.visible = false;
+            Cursor.lockState = CursorLockMode.Locked;
         }
     }
 }
