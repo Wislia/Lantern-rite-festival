@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: CharMat 1
+  m_Name: CharMat 2
   m_Shader: {fileID: -6465566751694194690, guid: e4c2b0211db6da44e9880786d7ca08ef, type: 3}
   m_ShaderKeywords: ETC1_EXTERNAL_ALPHA
   m_LightmapFlags: 4
@@ -44,10 +44,10 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - Vector1_3112eba7e3404effb22d1d769bb746a2: 0
+    - Vector1_3112eba7e3404effb22d1d769bb746a2: 5
     - Vector1_55e4bedb57e94f0bb866df52c005f10b: 0.2
-    - Vector1_95b67217be5940489bbcf44d693e1f7a: 0.4
-    - Vector1_bc04ce9dd0bd474fa639add0a7b708c5: 3
+    - Vector1_95b67217be5940489bbcf44d693e1f7a: 0.2
+    - Vector1_bc04ce9dd0bd474fa639add0a7b708c5: 2.43
     m_Colors:
-    - Color_81947a04b5ab4ec29480c8f97c53fc7f: {r: 1.8490562, g: 1.5295858, b: 0.377556, a: 0}
+    - Color_81947a04b5ab4ec29480c8f97c53fc7f: {r: 0.7490196, g: 0.63529414, b: 0.19607843, a: 0}
   m_BuildTextureStacks: []
